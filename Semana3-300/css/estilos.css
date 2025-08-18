@@ -1,0 +1,15 @@
+p{
+    color: red;
+}
+
+#uno{
+    background-color: greenyellow;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.negrita{
+    font-weight:bold;
+}
