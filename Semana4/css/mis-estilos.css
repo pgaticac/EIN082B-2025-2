@@ -1,0 +1,25 @@
+body{
+    background-color: #A8DADC;
+}
+
+.container-fluid{
+    background-color: #FFF;
+}
+
+.row{
+    height: 33vh;
+}
+
+footer{
+    height: 34vh;
+}
+
+#uno{background-color: #457B9D;}
+#uno:hover{ background-color: #E63946;}
+
+
+#dos{background-color: #F1FAEE;}
+#tres{background-color: #1D3557;}
+#cuatro{background-color: #E63946;}
+#cinco{background-color: #8D99AE;}
+#seis{background-color: #EDF2F4;}
