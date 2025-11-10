@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio Django | {{ titulo }}</title>
+    <link rel="stylesheet" href="{% static 'core/css/estilos.css' %}">
+</head>
+
+<body>
+    <h1>{{ titulo }}</h1>
+    <hr>
+    Hoy en Viña del Mar, {{clima.Temp}}°, {{clima.Estado}}
+    {% include 'core/nav.html' %}
+
+    {% for producto in productos %}
+        <a href="">{{ producto.title }}</a><br>
+
+    {% endfor %}
+
+   
+</body>
+
+</html>
